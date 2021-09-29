@@ -1,0 +1,160 @@
+/* tablet & mobile */
+@media(max-width:1023px){
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .our-tour-body{
+        margin-left: 0;
+    }
+    .footer__info{
+        margin-right: 0;
+    }
+}
+
+/* mobile */
+@media(max-width:739px){
+    .container__slide-list-wrap{
+        display: block;
+    }
+    .best-tour__text{
+        max-width: 100%;
+    }
+    .background-video__btn {
+        top: 0;
+        left: 0;
+    }
+    .our-popular-tour__content-wrap{
+        display: block;
+    }
+    .container__slide-item-1{
+        height: 368px;
+        margin-right: 0;
+    }
+    .container__slide-item-2{
+        margin-left: 0;
+        height: 600px;
+    }
+    .container__slide-item-sign {
+        top: 13%;
+        left: 18%;
+        transform: translate(0);
+        zoom: 0.6;
+    }
+    .container{
+        padding: 0 50px;
+    }
+    .popular-tour-img{
+        max-width: 100%;
+    }
+    
+    .our-tours__heading{
+        margin-top: 120px;
+        font-size: 3rem;
+    }
+    .best-tour__head{
+        font-size: 3.5rem;
+    }
+    .wine-festival__item{
+        margin: 0;
+        margin-top: 20px;
+    }
+    .num-and-text__body{
+        margin-top: 50px;
+    }
+    .background-video__btn{
+        top: 20%;
+        left: 40%;
+    }
+    .our-popular-tour__heading{
+        font-size: 3rem;
+    }
+    .our-popular-tour__content-label{
+        margin-right: 0 ;
+    }
+    .our-popular-tour__content-label{
+        margin-top: 20px;
+    }
+    .our-popular-tour__img-wrap{
+        margin-top: 50px;
+    }
+    .footer__info{
+        padding: 110px 50px 0 50px;
+    }
+    .footer__subscribe,
+    .footer-our-instagram{
+        margin-top: 70px;
+    }
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width:1023px){
+    .container__slide-list{
+        margin-top: 50px;
+    }
+    .container__slide-item-1{
+        width: 384px;
+        height: 355px;
+        object-fit:cover;
+    }
+    .container__slide-item-2{
+        height: 355px;
+    }
+    .container__slide-item-sign{
+        zoom:0.8;
+        transform: translate(-83%,-56%);
+
+    }
+    .our-tours__heading{
+        margin-top: 120px;
+    }
+    .wine-festival__item{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    img.wine-festival__item-img-full-col {
+        height: 642px;
+    }
+    .background-video__btn{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .num-and-text__body{
+        margin-top: 50px;
+    }
+    .num-and-text{
+        margin-top: 100px;
+    }
+    .our-popular-tour__content-wrap{
+        display: block;
+    }
+    .our-popular-tour__content-text{
+        width: 100%;
+    }
+    .our-popular-tour__content-label{
+        margin-top: 40px;
+    }
+    .our-popular-tour__img-wrap{
+        margin-top: 30px;
+    }
+    .footer__subscribe,
+    .footer-our-instagram{
+        margin-top: 70px;
+    }
+    .footer__coppy{
+        border-top: 1px solid rgb(117, 115, 115);
+        background-color: #212121;
+        margin-top: 0;
+    }
+    .footer{
+        margin-bottom: 0;
+    }
+}
+
+/* pc */
+
+@media (min-width:1024px){
+    .hide-on-pc{
+        display: none;
+    }
+}
